@@ -7,6 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Content Remove="Views\Shared\Components\Footer\Default.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.3.8" />
         <PackageReference Include="MiniProfiler.EntityFrameworkCore" Version="4.3.8" />
     </ItemGroup>
@@ -17,6 +21,13 @@
             <CopyLocal>False</CopyLocal>
             <CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
         </ProjectReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Views\Shared\Components\Footer\Default.cshtml">
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
