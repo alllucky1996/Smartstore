@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+    <PropertyGroup>
+        <Product>Quản lý may đo</Product>
+        <OutputPath>..\..\Smartstore.Web\Modules\JAN.Sizing</OutputPath>
+        <OutDir>$(OutputPath)</OutDir>
+    </PropertyGroup>
+    <ItemGroup>
+      <Folder Include="Domain\Interfaces\" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Update="Migrations\Queries\quyco_scheme.sql">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Migrations\Queries\quyco_view.sql">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+</Project>

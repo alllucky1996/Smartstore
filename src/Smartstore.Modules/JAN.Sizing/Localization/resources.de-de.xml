@@ -1,0 +1,109 @@
+﻿<Language Name="Deutsch" IsDefault="true" IsRightToLeft="false">
+    <LocaleResource Name="Plugins.FriendlyName.JAN.Sizing" AppendRootKey="false">
+        <Value>Domain Tutorial</Value>
+    </LocaleResource>
+    <LocaleResource Name="Plugins.Description.JAN.Sizing" AppendRootKey="false">
+        <Value>Dieses Modul fügt ein Domain ein.</Value>
+    </LocaleResource>
+
+    <LocaleResource Name="Plugins.JAN.Sizing" AppendRootKey="false">
+        <Children>
+            <LocaleResource Name="Name">
+                <Value>Name des zu Grüßenden</Value>
+            </LocaleResource>
+            <LocaleResource Name="Name.Hint">
+                <Value>Geben Sie hier den Namen der Person an die gegrüßt werden soll.</Value>
+            </LocaleResource>
+            <LocaleResource Name="MyTabValue">
+                <Value>Text zum Speichern</Value>
+            </LocaleResource>
+            <LocaleResource Name="MyTabValue.Hint">
+                <Value>Geben Sie hier den Text an, der für dieses Produkt gespeichert werden soll.</Value>
+            </LocaleResource>
+            <LocaleResource Name="MyMenuItem">
+                <Value>Modul konfigurieren</Value>
+            </LocaleResource>
+            <LocaleResource Name="MySecondMenuItem">
+                <Value>Hallo Welt</Value>
+            </LocaleResource>
+            <LocaleResource Name="MySubMenuItem">
+                <Value>Eine weitere Möglichkeit zu Konfigurieren</Value>
+            </LocaleResource>
+            <LocaleResource Name="NumberOfExportedRows">
+                <Value>Anzahl der Reihen</Value>
+            </LocaleResource>
+            <LocaleResource Name="NumberOfExportedRows.Hint">
+                <Value>Anzahl der Reihen, die exportiert werden sollen.</Value>
+            </LocaleResource>
+            <LocaleResource Name="Message">
+                <Value>Nachricht</Value>
+            </LocaleResource>
+            <LocaleResource Name="Message.Hint">
+                <Value>Eine Nachricht an die Kunden.</Value>
+            </LocaleResource>
+            <LocaleResource Name="Message.Add">
+                <Value>Mitteilung hinzufügen</Value>
+            </LocaleResource>
+            <LocaleResource Name="Message.Placeholder">
+                <Value>Hinterlasse eine Mitteilung...</Value>
+            </LocaleResource>
+            <LocaleResource Name="Message.Success">
+                <Value>Mitteilung wurde eingetragen.</Value>
+            </LocaleResource>
+            <LocaleResource Name="Message.Error">
+                <Value>Mitteilung konnte nicht eingetragen werden.</Value>
+            </LocaleResource>
+            <LocaleResource Name="NumberOfDaysToDisplayNotification">
+                <Value>Zeige eine Mitteilung für n Tage.</Value>
+            </LocaleResource>
+            <LocaleResource Name="NumberOfDaysToKeepNotification">
+                <Value>Behalte eine Mitteilung für n Tage.</Value>
+            </LocaleResource>
+            <LocaleResource Name="TaskName">
+                <Value>Mitteilungen aufräumen</Value>
+            </LocaleResource>
+            <!-- Grid -->
+            <LocaleResource Name="Notification" AppendRootKey="false">
+                <Children>
+                    <LocaleResource Name="Author">
+                        <Value>Autor</Value>
+                    </LocaleResource>
+                    <LocaleResource Name="Published">
+                        <Value>Veröffentlicht</Value>
+                    </LocaleResource>
+                    <LocaleResource Name="Message">
+                        <Value>Nachrichten Inhalt</Value>
+                    </LocaleResource>
+                    <LocaleResource Name="Grid">
+                        <Children>
+                            <LocaleResource Name="Title">
+                                <Value>Mitteilungen</Value>
+                            </LocaleResource>
+                            <LocaleResource Name="RemovalMessage">
+                                <Value>Wird gelöscht</Value>
+                                <Children>
+                                    <LocaleResource Name="Today">
+                                        <Value>Heute</Value>
+                                    </LocaleResource>
+                                    <LocaleResource Name="Tomorrow">
+                                        <Value>Morgen</Value>
+                                    </LocaleResource>
+                                    <LocaleResource Name="InXDays">
+                                        <Value>In {0} Tagen</Value>
+                                    </LocaleResource>
+                                </Children>
+                            </LocaleResource>
+                            <LocaleResource Name="Search.Message">
+                                <Value>Nachrichten Inhalt</Value>
+                            </LocaleResource>
+                            <LocaleResource Name="UserNotFound">
+                                <Value>Benutzer nicht gefunden.</Value>
+                            </LocaleResource>
+                        </Children>
+                    </LocaleResource>
+                </Children>
+            </LocaleResource>
+            <!-- Grid -->
+        </Children>
+    </LocaleResource>
+</Language>

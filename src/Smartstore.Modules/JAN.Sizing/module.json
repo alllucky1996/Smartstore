@@ -1,0 +1,13 @@
+{
+  "$schema": "../module.schema.json",
+  "Author": "Nguyễn Anh Dũng",
+  "Group": "Admin",
+  "SystemName": "JAN.Sizing",
+  "FriendlyName": "Quản lý may đo",
+  "Description": "jansoft.vn",
+  "Version": "3.0.0",
+  "MinAppVersion": "3.0.0",
+  "Order": 1,
+  "ResourceRootKey": "Plugins.JAN.Sizing",
+  "ProjectUrl": "https://jansoft.vn/sizing"
+}
